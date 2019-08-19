@@ -1,0 +1,85 @@
+= Fun with asciidoc
+Matt Oberlin <mao@us.ibm.com>
+v 0.05, 2019-Apr-5
+:copyright: IBM Corporation 2019
+:toc:
+:imagesdir: images
+:backend:   slidy
+:max-width: 45em
+:data-uri:
+:icons:
+
+These slides were created from an asciidoc file.
+
+some more text here
+
+even more text
+
+== Some fruits
+This is an unordered list that build
+
+=== Do you like fruits?
+
+[role="incremental"]
+* apples
+* oranges
+** temple
+** navel
+* bananas
+
+== More lists
+This is a sequential list that doesn't build
+
+[role="outline"]
+. First item
+. Second item
+.. Indented
+. Ordered list
+
+== I like code, how about you?
+[source,java]
+----
+public class Automobile {
+  private String make;
+  public Automobile(String make) {
+    this.make = make
+  }
+}
+----
+
+== New slide
+
+I'm just inserting a slide here as a test.
+
+
+== Sample terminal session
+Thanks to Hamid for this bit of magic!
++++
+<script src="https://asciinema.org/a/14.js" id="asciicast-14" async data-autoplay="true"></script>
++++
+
+== Pictures? Pictures!
+
+image::hamid.jpg[Hamid]
+
+== References
+
+*Asciidoc*
+
+https://asciidoctor.org/docs/asciidoc-vs-markdown/
+
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+
+http://themes.asciidoctor.org/preview/
+
+http://asciidoc.org/index.html
+
+*Asciinema* (terminal capture)
+
+https://asciinema.org/
+
+Internal IBM effort using asciinema
+
+https://kubetube.myibmcloudcluster.us-south.containers.mybluemix.net/kubetube
+
+== The End
